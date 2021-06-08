@@ -6,12 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] InputAction movement;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] float controlSpeed = 10f;
 
     void OnEnable()
     {
@@ -26,13 +21,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalThrow = movement.ReadValue<Vector2>().x;
-        float VerticalThrow = movement.ReadValue<Vector2>().y;
+        float xThrow = movement.ReadValue<Vector2>().x;
+        float yThrow = movement.ReadValue<Vector2>().y;
 
+        float xOffset = xThrow * Time.deltaTime * controlSpeed;
+        float newXpos = transform.localPosition.x + xOffset;
 
-        /*float horizontalThrow = Input.GetAxis("Horizontal");
-        float verticalThrow = Input.GetAxis("Vertical");
-        Debug.Log(horizontalThrow);
-        Debug.Log(verticalThrow);*/
+        float yOffset = yThrow * Time.deltaTime * controlSpeed;
+        float newYpos = transform.localPosition.y + yOffset;
+
+        transform.localPosition = new Vector3(newXpos, newYpos, transform.localPosition.z);
     }
 }
