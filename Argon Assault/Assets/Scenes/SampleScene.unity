@@ -394,7 +394,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -607,7 +607,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1819210287676470, guid: 020f3e98bc5a8c04385a44a09ed588c0, type: 3}
       propertyPath: yRange
-      value: 7.5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1819210287676470, guid: 020f3e98bc5a8c04385a44a09ed588c0, type: 3}
       propertyPath: positionPitchFactor
