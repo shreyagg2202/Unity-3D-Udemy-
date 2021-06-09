@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] InputAction movement;
+    [SerializeField] InputAction firing;
     [SerializeField] float controlSpeed = 10f;
     [SerializeField] float xRange = 10f;
     [SerializeField] float yRange = 5f;
@@ -21,11 +22,13 @@ public class PlayerController : MonoBehaviour
     void OnEnable()
     {
         movement.Enable();
+        firing.Enable();
     }
 
     void OnDisable()
     {
         movement.Disable();
+        firing.Disable();
     }    
     
     // Update is called once per frame
@@ -33,6 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
 
     void ProcessTranslation()
@@ -64,5 +68,17 @@ public class PlayerController : MonoBehaviour
 
         //Used to stop jerky movements and fluent rotations of the ship
         transform.localRotation = Quaternion.RotateTowards(transform.localRotation, targetRotation, rotationFactor);
+    }
+
+    void ProcessFiring()
+    {
+        if (firing.ReadValue<float>() > 0.5)
+        {
+            Debug.Log("firing");
+        }
+        else
+        {
+            Debug.Log("not firing");
+        }
     }
 }
