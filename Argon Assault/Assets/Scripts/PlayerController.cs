@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float controlPitchFactor = -10f;
     [SerializeField] float positionYawFactor = 2f;
     [SerializeField] float controlRollFactor = -20f;
+    [SerializeField] float rotationFactor = 1f;
 
     float xThrow, yThrow;
 
@@ -59,6 +60,9 @@ public class PlayerController : MonoBehaviour
         float yaw = transform.localPosition.x * positionYawFactor;
         float roll = xThrow * controlRollFactor;
 
-        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
+        Quaternion targetRotation = Quaternion.Euler(pitch, yaw, roll);
+
+        //Used to stop jerky movements and fluent rotations of the ship
+        transform.localRotation = Quaternion.RotateTowards(transform.localRotation, targetRotation, rotationFactor);
     }
 }
