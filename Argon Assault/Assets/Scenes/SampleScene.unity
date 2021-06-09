@@ -463,6 +463,16 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 5427805295457786279, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
   m_PrefabInstance: {fileID: 5427805297100866969}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2032482003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5292844607109434284, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+  m_PrefabInstance: {fileID: 5427805297100866969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2037629711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4759128354834975259, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+  m_PrefabInstance: {fileID: 5427805297100866969}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5427805297100866969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -470,6 +480,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1367813742725030504, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+      propertyPath: firing.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367813742725030504, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367813742725030504, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+      propertyPath: firing.m_Id
+      value: a9ae46dc-0be9-4bc0-908e-02702db70716
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367813742725030504, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+      propertyPath: firing.m_Name
+      value: Firing
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367813742725030504, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+      propertyPath: firing.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 610c867e-052f-4265-92c3-0d0d1ad0d3b7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367813742725030504, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+      propertyPath: firing.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Firing
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367813742725030504, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+      propertyPath: firing.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Mouse>/leftButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367813742725030504, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 2037629711}
+    - target: {fileID: 1367813742725030504, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 2032482003}
     - target: {fileID: 5427805295457786276, guid: 339ecded7d0eeff4eab50aacb093f573, type: 3}
       propertyPath: m_Name
       value: Player Rig
