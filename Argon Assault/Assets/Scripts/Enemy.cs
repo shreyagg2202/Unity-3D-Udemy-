@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     private void OnParticleCollision(GameObject other)
     {
+        Debug.Log("destroyed");
         Destroy(gameObject);
     }
 }
