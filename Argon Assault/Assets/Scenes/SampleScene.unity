@@ -344,16 +344,25 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -4345970371358938968, guid: 5247dd00a17fa864786498bde9180631, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 6830798647659265381, guid: 5247dd00a17fa864786498bde9180631, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7852126809339790162, guid: 5247dd00a17fa864786498bde9180631, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 8e8fdb04b12d2d04a8d0d99549e5a54f: {fileID: 488878477}
     - 39f3455e3d436344687712798282d09c: {fileID: 0}
+    - a3da2f22c6946644ca2052ab356be834: {fileID: 1077188803}
     - 12d6c5ff4bdc9bf4c998cf8c6cd8caac: {fileID: 1452339403}
     - 13390361c5934a245a8f70d89a2afcd6: {fileID: 0}
     - ec158d909ed1e214a9c6dcb3d0e5add8: {fileID: 6518308174584070558}
     - cc286ccd365e00f418fffc78cc2d49ac: {fileID: 488878477}
     - 5db67cb55a3abd244af0a5cc3cb2c30e: {fileID: 1215277390}
     - 5be51c401ffe14f40b00a0cf28d67f4a: {fileID: 910206082}
+    - 467f5a3faf496c64f8d682f14efe8959: {fileID: 1077188803}
+    - 39cd988cfb2d62146adf559d5b414a1e: {fileID: 1077188803}
+    - 555fd0cb70bae174babbef9f2b4fdaf3: {fileID: 1077188803}
+    - 6c459d6bcba0cd24d829b7355695d718: {fileID: 1077188803}
     - 09df53d27a4f1434fad148fa2fd74b0d: {fileID: 0}
 --- !u!4 &424429181
 Transform:
@@ -412,6 +421,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12.589765, y: 1.8212523, z: 10.850527}
   m_Center: {x: 0, y: -0.000006109476, z: 0.0000076293945}
+--- !u!1 &1077188803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2348796381076386303, guid: 8acbf754af46d984d8aabcd914e7432c, type: 3}
+  m_PrefabInstance: {fileID: 2381487047046590417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1215277390 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7551965915447692379, guid: f9287142075503b44805ee5f14503680, type: 3}
