@@ -2644,7 +2644,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Slackbar Image
   - m_Version: 1
-    m_Start: 43.68333333333333
+    m_Start: 42.43333333333333
     m_ClipIn: 1.5
     m_Asset: {fileID: 5483456112496146976}
     m_Duration: 3.439410430839004
@@ -3035,7 +3035,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: VO_Holy Mother
   - m_Version: 1
-    m_Start: 43.68333333333333
+    m_Start: 42.43333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -1081608358732321910}
     m_Duration: 3.4394104308390023
