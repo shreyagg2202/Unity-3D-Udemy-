@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -598,7 +598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -1036,7 +1036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -1287,7 +1287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -2042,7 +2042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -2293,7 +2293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -2412,7 +2412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -2663,7 +2663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -2938,7 +2938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
@@ -3057,7 +3057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd6cc61706e2824d907893756472003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 279866694312546200, guid: 0db49ec205458834b95da1b9152136a3, type: 3}
+  deathFX: {fileID: 0}
   hitVFX: {fileID: 279866694312546200, guid: bad53a815b7bd8543a86eb2f8372d1f7, type: 3}
   scorePerHit: 10
   hitpoints: 1
