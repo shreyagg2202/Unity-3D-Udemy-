@@ -8,7 +8,7 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] int currentHP = 0;
 
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
         currentHP = maxHP;
     }
@@ -24,7 +24,7 @@ public class EnemyHealth : MonoBehaviour
 
         if (currentHP <= 0) 
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
