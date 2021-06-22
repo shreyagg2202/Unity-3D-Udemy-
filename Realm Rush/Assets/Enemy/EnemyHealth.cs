@@ -7,12 +7,18 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] int maxHP = 5;
     [SerializeField] int currentHP = 0;
 
+    Enemy enemy;
+
     // Start is called before the first frame update
     void OnEnable()
     {
         currentHP = maxHP;
     }
 
+    void Start()
+    {
+        enemy = GetComponent<Enemy>();    
+    }
     private void OnParticleCollision(GameObject other)
     {
         ProcessHit();
@@ -25,6 +31,7 @@ public class EnemyHealth : MonoBehaviour
         if (currentHP <= 0) 
         {
             gameObject.SetActive(false);
+            enemy.RewardGold();
         }
     }
 }
