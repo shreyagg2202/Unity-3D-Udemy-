@@ -43,6 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e72de5f075a7c740bfc3c45e2e6827d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingBalance: 150
+  startingBalance: 250
   currentBalance: 0
   displayBalance: {fileID: 0}
