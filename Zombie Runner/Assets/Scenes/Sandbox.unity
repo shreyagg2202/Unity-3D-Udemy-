@@ -2369,17 +2369,17 @@ PrefabInstance:
     - target: {fileID: 1430573773356901420, guid: 8a96bcbb940ab9248930a56f0a8276e1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.5
+      value: 12.67
       objectReference: {fileID: 0}
     - target: {fileID: 1430573773356901420, guid: 8a96bcbb940ab9248930a56f0a8276e1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.95
+      value: 4.26
       objectReference: {fileID: 0}
     - target: {fileID: 1430573773356901420, guid: 8a96bcbb940ab9248930a56f0a8276e1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.110634
+      value: 14.64
       objectReference: {fileID: 0}
     - target: {fileID: 1430573773356901420, guid: 8a96bcbb940ab9248930a56f0a8276e1,
         type: 3}
@@ -2426,5 +2426,20 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 505909566}
+    - target: {fileID: 1430573773356901408, guid: 8a96bcbb940ab9248930a56f0a8276e1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430573773356901408, guid: 8a96bcbb940ab9248930a56f0a8276e1,
+        type: 3}
+      propertyPath: m_BaseOffset
+      value: 1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430573773356901408, guid: 8a96bcbb940ab9248930a56f0a8276e1,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a96bcbb940ab9248930a56f0a8276e1, type: 3}
