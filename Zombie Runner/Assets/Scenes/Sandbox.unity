@@ -1600,6 +1600,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1628896070}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &1375214083 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4376799389405497311, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 3}
+  m_PrefabInstance: {fileID: 1343232675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1422119548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2322,6 +2328,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914715761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1430573773356901409, guid: 8a96bcbb940ab9248930a56f0a8276e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1430573773128048007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1914715768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914715761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae21857061d116e46aa010bab8683603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 100
 --- !u!1001 &1917210742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2711,3 +2736,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 993449788}
   range: 100
+  damage: 25
+  muzzleFlash: {fileID: 1375214083}
