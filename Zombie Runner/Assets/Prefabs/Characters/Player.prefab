@@ -181,6 +181,9 @@ GameObject:
   - component: {fileID: 13600000}
   - component: {fileID: 11400004}
   - component: {fileID: 1093657442}
+  - component: {fileID: 1175546312}
+  - component: {fileID: 1175546317}
+  - component: {fileID: 953784031584752725}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -314,7 +317,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: becde24fd02527447910ad47874e89d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHitPoints: 100
+  hitPoints: 100
+--- !u!114 &1175546312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde2d4dd147b3fa409d4e28dbb4ee87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
+--- !u!114 &1175546317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8097db915ec2fd94cbd2e2b941f09b45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 2000000}
+  zoomedOutFOV: 60
+  zoomedInFOV: 20
+  zoomedInSensitivity: 0.5
+  zoomedOutSensitivity: 2
+--- !u!114 &953784031584752725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7367b0a30cd60f41a831adec083cb34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoAmount: 10
 --- !u!114 &3702106937340207755
 MonoBehaviour:
   m_ObjectHideFlags: 0
