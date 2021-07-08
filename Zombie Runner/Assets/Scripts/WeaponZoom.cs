@@ -15,26 +15,41 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         bool zoomedInToggle = false;
 
+        private void OnDisable()
+        {
+            ZoomOut();
+        }
+
         private void Update()
         {
             if (Input.GetMouseButtonDown(1))
             {
                 if (zoomedInToggle == false)
                 {
-                    zoomedInToggle = true;
-                    fpsCamera.fieldOfView = zoomedInFOV;
-                    fpsController.mouseLook.XSensitivity = zoomedInSensitivity;
-                    fpsController.mouseLook.YSensitivity = zoomedInSensitivity;
+                    ZoomIn();
                 }
                 else
                 {
-                    zoomedInToggle = false;
-                    fpsCamera.fieldOfView = zoomedOutFOV;
-                    fpsController.mouseLook.XSensitivity = zoomedOutSensitivity;
-                    fpsController.mouseLook.YSensitivity = zoomedOutSensitivity;
+                    ZoomOut();
                 }
             }
 
+        }
+
+        private void ZoomIn()
+        {
+            zoomedInToggle = true;
+            fpsCamera.fieldOfView = zoomedInFOV;
+            fpsController.mouseLook.XSensitivity = zoomedInSensitivity;
+            fpsController.mouseLook.YSensitivity = zoomedInSensitivity;
+        }
+
+        private void ZoomOut()
+        {
+            zoomedInToggle = false;
+            fpsCamera.fieldOfView = zoomedOutFOV;
+            fpsController.mouseLook.XSensitivity = zoomedOutSensitivity;
+            fpsController.mouseLook.YSensitivity = zoomedOutSensitivity;
         }
     }
 }
