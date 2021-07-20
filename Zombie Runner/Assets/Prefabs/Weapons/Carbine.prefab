@@ -341,7 +341,7 @@ MonoBehaviour:
     type: 3}
   ammoSlot: {fileID: 0}
   ammoType: 2
-  timeBetweenShots: 1
+  timeBetweenShots: 0.6
   ammoText: {fileID: 0}
 --- !u!114 &1905647014206950117
 MonoBehaviour:

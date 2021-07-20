@@ -7,6 +7,7 @@ public class Instructions : MonoBehaviour
     [SerializeField] Canvas instructionsCanvas;
     [SerializeField] Canvas ammoCanvas;
     [SerializeField] Canvas healthCanvas;
+    [SerializeField] Canvas gunRectileCanvas;
 
     bool gameStarted = false;
 
@@ -16,6 +17,7 @@ public class Instructions : MonoBehaviour
         instructionsCanvas.enabled = true;
         ammoCanvas.enabled = false;
         healthCanvas.enabled = false;
+        gunRectileCanvas.enabled = false;
     }
 
     private void Update()
@@ -28,6 +30,7 @@ public class Instructions : MonoBehaviour
             instructionsCanvas.enabled = false;
             ammoCanvas.enabled = true;
             healthCanvas.enabled = true;
+            gunRectileCanvas.enabled = true;
         }
     }
 }

@@ -340,7 +340,7 @@ MonoBehaviour:
     type: 3}
   ammoSlot: {fileID: 0}
   ammoType: 1
-  timeBetweenShots: 2
+  timeBetweenShots: 1.3
   ammoText: {fileID: 0}
 --- !u!1 &2337074158997199752
 GameObject:
