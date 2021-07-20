@@ -196,11 +196,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rockets Pickup
       objectReference: {fileID: 0}
-    - target: {fileID: 6788048536555957601, guid: d49735cb987927f4596b5c9fd110cd5b,
-        type: 3}
-      propertyPath: ammoType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1964472231567668996, guid: d49735cb987927f4596b5c9fd110cd5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -255,6 +250,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788048536555957601, guid: d49735cb987927f4596b5c9fd110cd5b,
+        type: 3}
+      propertyPath: ammoType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3604712843202530426, guid: d49735cb987927f4596b5c9fd110cd5b,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d49735cb987927f4596b5c9fd110cd5b, type: 3}
