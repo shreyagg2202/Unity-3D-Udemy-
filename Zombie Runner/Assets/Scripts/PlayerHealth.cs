@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -20,5 +21,10 @@ public class PlayerHealth : MonoBehaviour
         {
             GetComponent<DeathHandler>().HandleDeath();
         }
+    }
+
+    public void AddHealth(float healthAdded)
+    {
+        hitPoints += healthAdded;
     }
 }
