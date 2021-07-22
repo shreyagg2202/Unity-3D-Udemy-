@@ -203,6 +203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shotgun Shell
       objectReference: {fileID: 0}
+    - target: {fileID: 5527527970844513335, guid: 935429b5ca3e1f648a5bd1b8983647fe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7031151696969861883, guid: 935429b5ca3e1f648a5bd1b8983647fe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -297,6 +302,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shotgun Shell (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5527527970844513335, guid: 935429b5ca3e1f648a5bd1b8983647fe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7031151696969861883, guid: 935429b5ca3e1f648a5bd1b8983647fe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -390,6 +400,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shotgun Shell (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527527970844513335, guid: 935429b5ca3e1f648a5bd1b8983647fe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7031151696969861883, guid: 935429b5ca3e1f648a5bd1b8983647fe,
         type: 3}

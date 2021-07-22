@@ -103,6 +103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6508603821614446481, guid: 3d7dcd9b81573174eb6f375378294b16,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5158810954556129722, guid: 3d7dcd9b81573174eb6f375378294b16,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6701,6 +6706,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 6508603821614446481, guid: 3d7dcd9b81573174eb6f375378294b16,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5158810954556129722, guid: 3d7dcd9b81573174eb6f375378294b16,
         type: 3}
@@ -13380,6 +13390,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bullet (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6508603821614446481, guid: 3d7dcd9b81573174eb6f375378294b16,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5158810954556129722, guid: 3d7dcd9b81573174eb6f375378294b16,
         type: 3}
