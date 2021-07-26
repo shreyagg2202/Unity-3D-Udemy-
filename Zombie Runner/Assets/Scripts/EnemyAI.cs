@@ -61,8 +61,6 @@ public class EnemyAI : MonoBehaviour
 
     private void ChaseTarget()
     {
-        Debug.Log("Walking");
-        FindObjectOfType<AudioManager>().Play("EnemyFootsteps");
         GetComponent<Animator>().SetBool("attack", false);
         GetComponent<Animator>().SetTrigger("move");
         navMeshAgent.SetDestination(target.position);
@@ -84,5 +82,15 @@ public class EnemyAI : MonoBehaviour
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * turnSpeed);
+    }
+
+    public void EnemyWalkingEvent_Left()
+    {
+        FindObjectOfType<AudioManager>().Play("EnemyFootsteps_Left");
+    }
+
+    public void EnemyWalkingEvent_Right()
+    {
+        FindObjectOfType<AudioManager>().Play("EnemyFootsteps_Right");
     }
 }
