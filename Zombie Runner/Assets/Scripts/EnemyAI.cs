@@ -61,6 +61,8 @@ public class EnemyAI : MonoBehaviour
 
     private void ChaseTarget()
     {
+        Debug.Log("Walking");
+        FindObjectOfType<AudioManager>().Play("EnemyFootsteps");
         GetComponent<Animator>().SetBool("attack", false);
         GetComponent<Animator>().SetTrigger("move");
         navMeshAgent.SetDestination(target.position);
