@@ -68,7 +68,10 @@ public class Weapon : MonoBehaviour
 
     private void PlayGunshot()
     {
-        myAudioSource.Play();
+        if (ammoSlot.GetCurrentAmmo(ammoType) > 0)
+        {
+            myAudioSource.Play();
+        }
     }
 
     private void ProcessRayCast()
