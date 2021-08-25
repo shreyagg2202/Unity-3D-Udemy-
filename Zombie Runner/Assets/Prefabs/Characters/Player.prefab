@@ -305,7 +305,7 @@ MonoBehaviour:
     stickToGroundHelperDistance: 0.6
     slowDownRate: 20
     airControl: 0
-    shellOffset: 0
+    shellOffset: 0.1
 --- !u!114 &1093657442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -808,7 +808,8 @@ PrefabInstance:
       propertyPath: timeBetweenShots
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1807525326532822502, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
 --- !u!1 &3702106937340207754 stripped
 GameObject:
@@ -984,7 +985,8 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 953784031584752725}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7986938010083096331, guid: 19f7cd41eff0ab94eaca6060ae67008f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 19f7cd41eff0ab94eaca6060ae67008f, type: 3}
 --- !u!1 &7676632016849234902 stripped
 GameObject:
@@ -1080,7 +1082,8 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 953784031584752725}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5384869900058868346, guid: b1a5e79e697313f45af969feb9c5dbc4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b1a5e79e697313f45af969feb9c5dbc4, type: 3}
 --- !u!1 &8675833703891472363 stripped
 GameObject:
