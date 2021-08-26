@@ -29,5 +29,6 @@ public class EnemyHealth : MonoBehaviour
         isDead = true;
         GetComponent<Animator>().SetTrigger("death");
         GetComponent<CapsuleCollider>().enabled = false;
+        FindObjectOfType<AudioManager>().Stop("EnemyAttacking");
     }
 }

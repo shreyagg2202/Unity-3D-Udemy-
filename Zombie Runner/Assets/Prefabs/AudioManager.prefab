@@ -56,3 +56,9 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 1
     source: {fileID: 0}
+  - name: EnemyAttacking
+    clip: {fileID: 8300000, guid: 4508b9be41811a84b8717b1004550760, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    source: {fileID: 0}

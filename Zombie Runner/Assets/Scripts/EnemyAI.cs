@@ -13,6 +13,7 @@ public class EnemyAI : MonoBehaviour
     float distanceToTarget = Mathf.Infinity;
     bool isProvoked = false;
     bool isAngry = false;
+    bool playing = false;
     EnemyHealth health;
     Transform target;
 
@@ -45,6 +46,11 @@ public class EnemyAI : MonoBehaviour
         if (isProvoked == true || isAngry == true)
         {
             EngageTarget();
+            if (!playing)
+            {
+                FindObjectOfType<AudioManager>().Play("EnemyAttacking");
+                playing = true;
+            }
         }
         else
         {
