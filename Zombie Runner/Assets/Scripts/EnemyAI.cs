@@ -31,13 +31,15 @@ public class EnemyAI : MonoBehaviour
         }
 
         distanceToTarget = Vector3.Distance(target.position, transform.position);
-        if (isProvoked)
-        {
-            EngageTarget();
-        }
-        else if (distanceToTarget <= chaseRange)
+
+        if (distanceToTarget <= chaseRange)
         {
             isProvoked = true;
+        }
+
+        if (isProvoked == true)
+        {
+            EngageTarget();
         }
     }
 
@@ -48,6 +50,7 @@ public class EnemyAI : MonoBehaviour
 
     private void EngageTarget()
     {
+        Debug.Log("Engaged");
         FaceTarget();
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {
@@ -61,6 +64,7 @@ public class EnemyAI : MonoBehaviour
 
     private void ChaseTarget()
     {
+        Debug.Log("Chasing");
         GetComponent<Animator>().SetBool("attack", false);
         GetComponent<Animator>().SetTrigger("move");
         navMeshAgent.SetDestination(target.position);
@@ -68,6 +72,7 @@ public class EnemyAI : MonoBehaviour
 
     private void AttackTarget()
     {
+        Debug.Log("Attacking");
         GetComponent<Animator>().SetBool("attack", true);
     }
 
