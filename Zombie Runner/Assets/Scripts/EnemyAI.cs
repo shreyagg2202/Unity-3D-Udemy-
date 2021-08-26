@@ -36,10 +36,18 @@ public class EnemyAI : MonoBehaviour
         {
             isProvoked = true;
         }
+        else
+        {
+            isProvoked = false;
+        }
 
         if (isProvoked == true)
         {
             EngageTarget();
+        }
+        else
+        {
+            StopEnemy();
         }
     }
 
@@ -52,7 +60,7 @@ public class EnemyAI : MonoBehaviour
     {
         Debug.Log("Engaged");
         FaceTarget();
-        if (distanceToTarget >= navMeshAgent.stoppingDistance)
+        if (distanceToTarget > navMeshAgent.stoppingDistance)
         {
             ChaseTarget();
         }
@@ -74,6 +82,13 @@ public class EnemyAI : MonoBehaviour
     {
         Debug.Log("Attacking");
         GetComponent<Animator>().SetBool("attack", true);
+    }
+
+    private void StopEnemy()
+    {
+        Debug.Log("Enemy Stopped");
+        GetComponent<Animator>().SetTrigger("idle");
+        navMeshAgent.SetDestination(transform.position);
     }
 
     private void OnDrawGizmosSelected()
