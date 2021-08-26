@@ -12,6 +12,7 @@ public class EnemyAI : MonoBehaviour
     NavMeshAgent navMeshAgent;
     float distanceToTarget = Mathf.Infinity;
     bool isProvoked = false;
+    bool isAngry = false;
     EnemyHealth health;
     Transform target;
 
@@ -41,7 +42,7 @@ public class EnemyAI : MonoBehaviour
             isProvoked = false;
         }
 
-        if (isProvoked == true)
+        if (isProvoked == true || isAngry == true)
         {
             EngageTarget();
         }
@@ -53,7 +54,7 @@ public class EnemyAI : MonoBehaviour
 
     public void OnDamageTaken()
     {
-        isProvoked = true;
+        isAngry = true;
     }
 
     private void EngageTarget()
