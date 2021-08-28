@@ -22,7 +22,7 @@ public class CollisionHandler : MonoBehaviour
         Invoke("ReloadLevel", loadDelay);
     }
 
-    void ReloadLevel()
+    public void ReloadLevel()
     {
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
