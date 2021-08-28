@@ -5,3 +5,5 @@
 [Infinity Boost](https://simmer.io/@Anomator/infinity-boost) :- 3D Platformer
 
 [Realm Rush](https://simmer.io/@Anomator/realm-rush) :- Tower Defence Game
+
+[Zombie Asylum](https://sharemygame.com/@Anomator/zombie-asylum) :- First Person Shooter
