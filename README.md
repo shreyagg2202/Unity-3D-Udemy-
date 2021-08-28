@@ -8,4 +8,4 @@
 
 [Argon Assault](https://simmer.io/@Anomator/argon-assault) :- On-Rails Shooter
 
-[Zombie Asylum](https://sharemygame.com/@Anomator/zombie-asylum) :- First Person Shooter
+[Zombie Asylum](https://simmer.io/@Anomator/zombie-asylum) :- First Person Shooter
