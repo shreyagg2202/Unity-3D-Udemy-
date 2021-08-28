@@ -6,4 +6,6 @@
 
 [Realm Rush](https://simmer.io/@Anomator/realm-rush) :- Tower Defence Game
 
+[Argon Assault](https://simmer.io/@Anomator/argon-assault) :- On-Rails Shooter
+
 [Zombie Asylum](https://sharemygame.com/@Anomator/zombie-asylum) :- First Person Shooter
